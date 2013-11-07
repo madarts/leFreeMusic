@@ -1,0 +1,406 @@
+body {
+	margin: 0;
+	padding: 0;
+	
+	width: 100%;
+	height: 100%;
+	
+	position: absolute;
+    
+    background: #1a1a1b;
+    
+    cursor: default;
+    
+    font-family: "Microsoft Yi Baiti";
+    text-shadow: 0 1px 0 #000;
+}
+
+#contenido {
+	width: auto;
+	height: 100%;
+	
+	position: relative;
+}
+#menu {
+	background: #272629;
+	
+	float: left;
+	
+	width: 373px;
+	height: 100%;
+    
+    min-height: 600px;
+    
+    border-right: #48474B solid 1px;
+}
+#menu  #logo {
+	border-bottom: #3c3b3f solid 1px;
+	
+	width: 100%;
+	height: 142px;
+    
+    background: url(../img/logo.png);
+    
+    position: relative;
+}
+#menu  #logo #secuencias {
+    position: absolute;
+    
+    top: 100%;
+    left: 10px;
+    
+    margin-top: -37px;
+}
+#menu  #logo #subir {
+    position: absolute;
+    
+    top: 15px;
+    left: 30px;
+    
+    cursor: pointer;
+}
+#menu  #logo #subir {
+    position: absolute;
+    
+    top: 15px;
+    left: 30px;
+    
+    cursor: pointer;
+    
+    background: url(../img/subir.png);
+    
+    width: 43px;
+    height: 62px;
+}
+#menu  #logo #subir:hover {
+    background: url(../img/subirON.png);
+}
+#menu #capaRep {
+    width: 100%;
+    height: 150px;
+    
+    position: relative;
+}
+#menu  #capaRep .reproductor {
+    width: 100%;
+    height: 150px;
+    
+    background: url(../img/reproductor.png);
+    
+    position: relative;
+}
+#menu #capaRep .reproductor #play {
+    position: absolute;
+    
+    background: url(../img/botonesRepTop.png);
+    
+    width: 19px;
+    height: 19px;
+    
+    top: 7px;
+    left: 6px;
+    
+    cursor: pointer;
+}
+#menu #capaRep .reproductor #stop {
+    position: absolute;
+    
+    background: url(../img/botonesRepTop.png) 19px 0;
+    
+    width: 19px;
+    height: 19px;
+    
+    top: 7px;
+    left: 33px;
+    
+    cursor: pointer;
+}
+#menu #capaRep .reproductor #barraRep {
+    position: relative;
+    
+    background: url(../img/barraSong.png);
+    
+    width: 170px;
+    height: 8px;
+    
+    top: 19px;
+    left: 70px;
+}
+#menu #capaRep .reproductor #barraRep #stado {
+    position: absolute;
+    
+    background: url(../img/estadoSong.png);
+    
+    width: 9px;
+    height: 8px;
+    
+    top: 0;
+    left: 0;
+    
+    cursor: pointer;
+}
+#menu #capaRep .reproductor #siguienteCancion {
+    position: absolute;
+    
+    background: url(../img/botonesRep.png);
+    
+    width: 57px;
+    height: 42px;
+    
+    top: 84px;
+    left: 19px;
+    
+    cursor: pointer;
+}
+#menu #capaRep .reproductor #anteriorCancion {
+    position: absolute;
+    
+    background: url(../img/botonesRep.png) -69px 0;
+    
+    width: 57px;
+    height: 42px;
+    
+    top: 84px;
+    left: 88px;
+    
+    cursor: pointer;
+}
+#menu #capaRep .reproductor #repetirCancion {
+    position: absolute;
+    
+    background: url(../img/botonesRep.png) -136px 0;
+    
+    width: 58px;
+    height: 42px;
+    
+    top: 84px;
+    left: 155px;
+    
+    cursor: pointer;
+}
+#menu #capaRep .reproductor #enRepro {
+    position: absolute;
+    
+    top: 28px;
+    left: 31px;
+    
+    font-size: 13pt;
+    color: #fff;
+}
+#menu #capaRep .reproductor #tiempoRepro {
+    position: absolute;
+    
+    top: 25px;
+    left: 208px;
+    
+    font-size: 11pt;
+    color: #fff;
+}
+#menu #capaRep .reproductor #tituloRepro {
+    position: absolute;
+    
+    top: 40px;
+    left: 38px;
+    
+    font-size: 19pt;
+    font-weight: bold;
+    color: #fff;
+}
+#menu #capaRep .reproductor #foto {
+    position: absolute;
+    
+    top: 23px;
+    left: 263px;
+    
+    width: 99px;
+    height: 99px;
+}
+#menu #capaRep .reproductor #grupo {
+    position: absolute;
+    
+    top: 123px;
+    left: 250px;
+    
+    width: 120px;
+    
+    font-size: 9pt;
+    color: #fff;
+    
+    text-align: center;
+    
+    line-height: 12px;
+}
+
+#menu #inicioSesion {
+    width: 100%;
+    height: 68px;
+    
+    background: url(../img/inicioSesion.png);
+    
+    overflow: hidden;
+    
+    position: relative;
+}
+#menu #pieMenu {
+    width: 100%;
+    height: auto;
+    
+    min-height: auto;
+    
+    background: url(../img/fondoBusqueda.png);
+}
+#menu #pieMenu input#buscador {
+    background: #848484;
+    
+    width: 282px;
+    height: 17px;
+    
+    border-width: 0;
+    
+    margin: 10px 0 0 40px;
+    padding: 0;
+    
+    font-size: 10px;
+	
+	opacity:0.55;
+}
+#menu #pieMenu #busTxt {
+    font-size: 25pt;
+    color: #848484;
+    
+    
+    margin: 15px 0  0 14px;
+    
+    float: left;
+}
+
+
+
+#lista {
+	float: right;
+	
+	width: auto;
+	height: 100%;
+    
+    min-height: 600px;
+    
+    border-left: #303235 solid 1px;
+    
+    position: relative;
+    
+    overflow: auto;
+}
+#lista #filter {
+    float: right;
+}
+#lista #filter ul {
+    list-style: none;
+    
+    padding: 0;
+    margin: 0 23px 0 0;
+}
+#lista #filter ul li {
+    float: left;
+    
+    margin: 15px 0 0 21px;
+    
+    font-size: 14pt;
+    color: #fff;
+    
+    cursor: pointer;
+}
+#lista #filter ul li#artistas {
+    background: url(../img/filter.png);
+    
+    width: 70px;
+    height: 19px;
+}
+#lista #filter ul li#albumes {
+    background: url(../img/filter.png) -90px 0;
+    
+    width: 88px;
+    height: 19px;
+}
+#lista #filter ul li#pistas {
+    background: url(../img/filter.png) -199px 0;
+    
+    width: 52px;
+    height: 19px;
+}
+#lista img#barraSombra {
+    float: right;
+    
+    margin: 4px 21px 0;
+}
+#lista #filterOpt {
+    position: absolute;
+    
+    top: 39px;
+    left: 100%;
+    
+    /*margin-left: -267px;*/
+    margin-left: -167px;
+    /*margin-left: -79px;*/
+    
+    width: 57px;
+    height: 9px;
+    
+    background: url(../img/filterOpt.png);
+}
+#lista ul#canciones {
+    list-style: none;
+    
+    padding: 0;
+    margin: 17px 0 0 14px;
+}
+#lista ul#canciones li {
+    margin-bottom: 11px;
+    
+    
+    height: 101px;
+    
+    cursor: pointer;
+}
+#lista ul#canciones li img.caratula {
+    width: 100px;
+    height: 101px;
+    
+    float: left;
+}
+#lista ul#canciones li div.titulos {
+    float: left;
+    
+    margin: 24px 0 0 4px;
+}
+#lista ul#canciones li div.titulos span.titulos {
+    font-size: 24pt;
+    color: #D2D2D1;
+    
+    font-weight: inherit;
+    
+    line-height: 14px;
+}
+#lista ul#canciones li div.titulos span.subtitulos {
+    font-size: 17px;
+    color: #BDBDBD;
+    
+    line-height: 16px;
+    
+    padding-left: 5px;
+}
+#lista ul#canciones li div.titulos span.informacion {
+    font-size: 15px;
+    color: #8D8D8D;
+    
+    line-height: 8px;
+    
+    margin-left: 10px;
+}
+#lista ul#canciones li img.flecha {
+    float: right;
+    
+    margin: 32px 23px 0;
+}
+#lista ul#canciones li:hover {
+    background: url(../img/sombraSong.png) 0 14px repeat-x;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>le free music - share de musica libre.</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+        
+		<script language="JavaScript" type="text/javascript" src="js/mootools-core.js"></script>
+        <script language="JavaScript" type="text/javascript" src="js/mootools-more.js"></script>
+		<script language="JavaScript" type="text/javascript" src="js/script.js"></script>
+	</head>
+
+	<body>
+		<div id="contenido">
+			<div id="menu">
+				<div id="logo">
+                    <div id="subir"></div>
+                    
+                    <img src="img/secuencias.png" id="secuencias" />
+				</div>
+                
+                <div id="capaRep">
+                    <div id="reproductor1" class="reproductor">
+                    
+                        <audio id="audioSound" src="music/Kalimba.mp3" preload="auto"></audio>
+                        
+                        <div id="play"></div>
+                        <div id="stop"></div>
+                        
+                        <div id="barraRep">
+                            <div id="stado"></div>
+                        </div>
+                        
+                        <img src="img/caratulas/loadImg.png" id="foto" />
+                        <div id="grupo">Mago de oz</div>
+                        
+                        <div id="siguienteCancion"></div>
+                        <div id="anteriorCancion"></div>
+                        <div id="repetirCancion"></div>
+                        
+                        <div id="enRepro">En reproduccion:</div>
+                        <div id="tiempoRepro">-</div>
+                        <div id="tituloRepro"></div>
+                    </div>
+                </div>
+                
+                <div id="inicioSesion"></div>
+                
+                <div id="pieMenu">
+                
+                    <span id="busTxt">Busqueda por album</span>
+                    <input type="text" id="buscador" name="buscador" />
+                </div>
+			</div>
+			
+			<div id="lista">
+                <div id="filter">
+                    <ul>
+                        <li id="artistas"></li>
+                        <li id="albumes"></li>
+                        <li id="pistas"></li>
+                    </ul>
+                    
+                </div>
+                
+                <div style="clear: both;"></div>
+                
+                <img src="img/barraFilter.png" id="barraSombra" />
+                
+                <div id="filterOpt"></div>
+                
+                
+                <ul id="canciones">
+                    <li>
+                        <img src="img/caratulas/caratula01.png" class="caratula" />
+                        
+                            <img src="img/flecha.png" class="flecha" />
+                        
+                        <div class="titulos">
+                            <span class="titulos">50' CENT</span>
+                            <br />
+                            <span class="informacion">Nuevo CD en share compartido
+                                                    <br />
+                                                    por *Blanca 19 - 09 - 2013</span>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <img src="img/caratulas/caratula02.png" class="caratula" />
+                        
+                            <img src="img/flecha.png" class="flecha" />
+                        
+                        <div class="titulos">
+                            <span class="titulos">Alaska Bunrubi</span>
+                            <br />
+                            <span class="informacion">Nuevo CD en share compartido
+                                                    <br />
+                                                    por *Jose 21 - 04 - 2013</span>
+                        </div>                        
+                    </li>
+                    
+                    <li>
+                        <img src="img/caratulas/caratula03.png" class="caratula" />
+                        
+                            <img src="img/flecha.png" class="flecha" />
+                        
+                        <div class="titulos">
+                            <span class="titulos">Megadeth</span><span class="subtitulos">mistery mind</span>
+                            <br />
+                            <span class="informacion">Nuevo CD en share compartido
+                                                    <br />
+                                                    por *Blanca 19 - 09 - 2013</span>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <img src="img/caratulas/caratula04.png" class="caratula" />
+                        
+                            <img src="img/flecha.png" class="flecha" />
+                        
+                        <div class="titulos">
+                            <span class="titulos">Ofunkillo</span>
+                            <br />
+                            <span class="informacion">Nuevo CD en share compartido
+                                                    <br />
+                                                    por *Blanca 19 - 09 - 2013</span>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <img src="img/caratulas/caratula01.png" class="caratula" />
+                        
+                            <img src="img/flecha.png" class="flecha" />
+                        
+                        <div class="titulos">
+                            <span class="titulos">50' CENT</span>
+                            <br />
+                            <span class="informacion">Nuevo CD en share compartido
+                                                    <br />
+                                                    por *Blanca 19 - 09 - 2013</span>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <img src="img/caratulas/caratula02.png" class="caratula" />
+                        
+                            <img src="img/flecha.png" class="flecha" />
+                        
+                        <div class="titulos">
+                            <span class="titulos">Alaska Bunrubi</span>
+                            <br />
+                            <span class="informacion">Nuevo CD en share compartido
+                                                    <br />
+                                                    por *Jose 21 - 04 - 2013</span>
+                        </div>                        
+                    </li>
+                    
+                    <li>
+                        <img src="img/caratulas/caratula03.png" class="caratula" />
+                        
+                            <img src="img/flecha.png" class="flecha" />
+                        
+                        <div class="titulos">
+                            <span class="titulos">Megadeth</span><span class="subtitulos">mistery mind</span>
+                            <br />
+                            <span class="informacion">Nuevo CD en share compartido
+                                                    <br />
+                                                    por *Blanca 19 - 09 - 2013</span>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <img src="img/caratulas/caratula04.png" class="caratula" />
+                        
+                            <img src="img/flecha.png" class="flecha" />
+                        
+                        <div class="titulos">
+                            <span class="titulos">Ofunkillo</span>
+                            <br />
+                            <span class="informacion">Nuevo CD en share compartido
+                                                    <br />
+                                                    por *Blanca 19 - 09 - 2013</span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+		</div>
+	</body>
+</html>

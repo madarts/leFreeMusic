@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<musica>
+    <autor name="Kompromiso Antisocial">
+        <cd name="putas" img="musica/43b643b6/caratula.png">
+            <cancion numero="1" name="pepe" src="musica/43b643b6/pepe.mp3"></cancion>
+            <cancion numero="2" name="droga adulterada" src="musica/43b643b6/droga_adulterada.mp3"></cancion>
+            <cancion numero="3" name="Gaztetxe" src="musica/43b643b6/Gaztetxe.mp3"></cancion>
+            <cancion numero="4" name="jose" src="musica/43b643b6/jose.mp3"></cancion>
+            <cancion numero="5" name="Karlos" src="musica/43b643b6/Karlos.mp3"></cancion>
+            <cancion numero="6" name="Gramo Erdi" src="musica/43b643b6/Gramo_Erdi.mp3"></cancion>
+            <cancion numero="7" name="Sakila" src="musica/43b643b6/Sakila.mp3"></cancion>
+        </cd>
+    </autor>
+</musica>
